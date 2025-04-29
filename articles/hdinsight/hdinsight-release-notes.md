@@ -58,14 +58,17 @@ For workload specific versions, see [HDInsight 5.x component versions](./hdinsig
 * Managed identity based authentication for WASB when storage has network ACL enabled.
 * Managed identity based authentication for SQL databases when availability zones are used.
 * Security fixes.
-  
+
+## Updates
+
+* Active PIN requests for creating HDInsight clusters with predetermined image versions will be revoked/cancelled on 26 May 2025. Beyond this date, customers will only be able to create clusters using the updated (compliant) images of each HDInsight version. This measure is intended to improve cluster security and prevent potential issues with clusters and gateway nodes. 
 
 ## Reminder
 
 * HDInsight service transitioned to use standard load balancers for all its cluster configurations due to [deprecation announcement](https://azure.microsoft.com/updates/azure-basic-load-balancer-will-be-retired-on-30-september-2025-upgrade-to-standard-load-balancer#main) of Azure basic load balancer.
 
   > [!IMPORTANT]
-  > By default, any new cluster gets created with a Standard Load Balancer. We recommend referring to the [migration guide to recreate the cluster](./load-balancer-migration-guidelines.md).
+  > By default, all newly created HDInsight clusters are configured with a Standard Load Balancer. We recommend referring to the [migration guide to recreate the cluster](./load-balancer-migration-guidelines.md).
   > For any assistance, contact [support](https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview).
 
 * [Basic and Standard A-series VMs Retirement](https://azure.microsoft.com/updates/basic-and-standard-aseries-vms-on-hdinsight-will-retire-on-31-august-2024/).
