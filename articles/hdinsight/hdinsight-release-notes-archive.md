@@ -7,7 +7,7 @@ ms.custom: hdinsightactive, references_regions
 author: yeturis
 ms.author: sairamyeturi
 ms.reviewer: nijelsf
-ms.date: 01/24/2025
+ms.date: 04/29/2025
 ---
 
 # Archived release notes
